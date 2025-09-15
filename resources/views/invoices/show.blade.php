@@ -10,8 +10,8 @@
             <div class="bg-gradient-to-r from-[#003686] to-blue-800 text-white px-8 py-6">
                 <div class="flex justify-between items-center">
                     <div>
-                        <h2 class="text-3xl font-bold mb-1">Invoice {{ $invoice->invoice_number }}</h2>
-                        <p class="text-white/70 text-sm">Invoice details and summary</p>
+                        <h2 class="text-[#003686] text-3xl font-bold mb-1">Invoice {{ $invoice->invoice_number }}</h2>
+                        <p class="text-[#ff6701] text-sm">Invoice details and summary</p>
                     </div>
                     <div class="flex space-x-3 no-print">
                         <a href="{{ route('invoices.edit', $invoice) }}" 
@@ -243,15 +243,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-        // Optional: Add keyboard shortcut for printing
-        document.addEventListener('keydown', function(e) {
-            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
-                e.preventDefault();
-                window.print();
-            }
-        });
-    </script>
 </div>
 @endsection

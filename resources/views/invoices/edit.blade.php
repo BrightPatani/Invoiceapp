@@ -11,8 +11,8 @@
                 <!-- Header Section -->
                 <div class="bg-gradient-to-r from-[#003686] to-blue-800 px-8 py-6 flex justify-between items-center">
                     <div>
-                        <h1 class="text-white text-3xl font-bold mb-1">Edit Invoice</h1>
-                        <p class="text-white/70 text-sm">Update invoice details for your client</p>
+                        <h1 class="text-[#003686] text-3xl font-bold mb-1">Edit Invoice</h1>
+                        <p class="text-[#ff6701] text-sm">Update invoice details for your client</p>
                     </div>
                     <a href="{{ route('invoices.index') }}"
                        class="inline-flex items-center px-4 py-2 bg-[#003686] hover:bg-opacity-30 text-white rounded-lg font-medium transition-all duration-200 backdrop-blur-sm border-l-4 border-[#FF6701]">
