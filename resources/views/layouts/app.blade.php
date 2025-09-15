@@ -13,7 +13,7 @@
      @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-50 font-sans">
-    <nav class="bg-gradient-to-r from-[#003686] to-blue-800 shadow-xl border-b border-[#003686]/20">
+    <nav class="shadow-md border-b-4 border-[#003686]/20">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center">
@@ -26,8 +26,8 @@
                 </div>
                 <div class="flex items-center space-x-4">
                     <a href="{{ route('invoices.index') }}" 
-                       class="text-white/80 hover:text-white font-medium transition-all duration-200 flex items-center">
-                        <i class="fas fa-list mr-2 text-[#FF6701]"></i>
+                       class="text-[#003686] font-medium transition-all duration-200 flex items-center transform hover:scale-105">
+                        <i class="fas fa-list mr-2 text-[#FF6701] hover:text-[#003686]"></i>
                         All Invoices
                     </a>
                     <a href="{{ route('invoices.create') }}" 

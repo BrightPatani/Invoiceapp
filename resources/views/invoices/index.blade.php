@@ -8,14 +8,9 @@
     <div class="px-6 py-5 border-b border-gray-200 bg-gradient-to-r from-gray-50 to-white">
         <div class="flex justify-between items-center">
             <div>
-                <h2 class="text-2xl font-bold text-gray-900 mb-1">All Invoices</h2>
-                <p class="text-sm text-gray-600">Manage and track your invoices</p>
+                <h2 class="text-2xl font-bold text-[#003686] mb-1">All Invoices</h2>
+                <p class="text-sm text-[#003686]">Manage and track your invoices</p>
             </div>
-            <a href="{{ route('invoices.create') }}" 
-               class="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl flex items-center space-x-2">
-                <i class="fas fa-plus"></i>
-                <span>Create New Invoice</span>
-            </a>
         </div>
     </div>
 
@@ -24,7 +19,7 @@
         <table class="w-full">
             <!-- Table Header -->
             <thead>
-                <tr class="bg-gradient-to-r from-blue-900 to-blue-800 text-white">
+                <tr class="bg-gradient-to-r from-blue-900 to-blue-800 text-[#003686]">
                     <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Invoice #</th>
                     <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Client</th>
                     <th class="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider">Date</th>
